@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Inter;
+}
+.why-fiber .bold-font{
+    font-weight: 800;
+}
+
+.why-fiber .title{
+    margin-block: 0.75rem;
+}
+.why-fiber .option-coulmn{
+    margin-top: 1.5rem;
+    width: 28%;
+    gap: 1.2rem;
+}
+.why-fiber .title-options{
+    font-size: 1rem;
+}
+.why-fiber .title-options-section{
+    font-size: 1.99rem;
+}
+.why-fiber .title{
+    width: 39%;
+    margin-block: 3.25rem;
+}
+.why-fiber .link{
+    text-decoration: none;
+    color: #4d13d1; 
+    margin-block: 2.2rem;
+}
+.why-fiber .options .option-coulmn img{
+    margin-bottom: 0.75rem;
+}
+.why-fiber .options .option-coulmn h3{
+    margin-bottom: 0.55rem;
+}
+@media (max-width:990px) {
+        .why-fiber .options{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .why-fiber .option-coulmn{
+            width: 100%;
+        }
+        .why-fiber .title{
+            width: 100%;
+        }
+}
+/* ===================================================================================== */
+.portfolio{
+    background-color: #4d13d1;
+    margin-top: 1.25rem;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+.portfolio .content{
+    padding-left: 5rem;
+    color: aliceblue;
+    width: 43%;
+    /* margin-top: 8rem; */
+}
+.portfolio .content h1{
+    font-weight: 800;
+}
+.portfolio .content p{
+    color: rgb(215, 215, 215);
+}
+
+.portfolio img{
+    max-width: 100%;
+    /* max-width: 30rem; */
+    margin-top: 1.75rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+}
+.portfolio .content a{
+    background-color: #ffffff;
+    color: #4d13d1;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 1rem ;
+    text-align: center;
+    justify-content: center;
+    font-size: clamp(0.25rem, 0.4rem + 1.3333vw, 3rem);
+    display: flex;
+}
+@media (max-width:990px){
+    .portfolio img{
+        margin-left: 0;
+        
+    }
+    .portfolio .content{
+        width: 100%;
+        padding: 2.25rem;
+        font-size:x-large;
+
+    }
+    .portfolio .content button{
+        padding-inline:10rem ;
+        display: flex;
+        /* font-size:10rem ; */
+        margin: 3rem auto 0rem;
+
+}
+}
+@media (max-width:440px) {
+    .portfolio .content{
+        width: 100%;
+        /* padding: 2.25rem; */
+        font-size:x-large;
+
+    }
+    .portfolio .content button{
+        padding-inline:10rem ;
+        display: flex;
+        /* margin-inline: 0.25rem; */
+}
+}
+/* ======================================================================= */
+.examples{
+    margin-top: 3.25rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.examples .examples-portfolio{
+    border: 1px solid #c3c2c2;
+    padding: 1.25rem;
+    border-radius: 5px;
+}
+
+ .examples .examples-portfolio .header{
+    display: flex;
+    max-width: 80%;
+    gap: 1rem;
+ }
+
+ .examples .examples-portfolio .name {
+    display: grid;
+ }
+
+.examples .examples-portfolio .header .name .j-name {
+    color: #4d13d1;
+    font-weight: 700;
+}
+.examples .examples-portfolio a{
+    color: #4d13d1;
+    text-decoration: none;
+    border: 1.5px solid #c3c2c2;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+
+}
+.examples .examples-portfolio p{
+    color: rgb(53, 53, 53);
+    margin-top: 1rem;
+    font-weight:400;
+    max-width: 20rem;
+    font-size: 1.1rem;
+}
+
+
+footer{
+    background-color: #fbf8f3;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    padding-top: 2.5rem;
+    
+    
+}
+
+footer h3{
+    font-size: 1rem;
+    font-weight: 800;
+}
+footer .list-footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.89rem;
+}
+footer .list-footer a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+@media (max-width : 600px){
+    footer .container{
+        gap: 2rem;
+    }
+}
